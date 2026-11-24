@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Logo de Aulateca: libro abierto con un pin de ubicación -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26,58 C35,53.5 45,53.5 52.5,59 L52.5,83 C45,78 35,78 26,82 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M82,58 C73,53.5 63,53.5 55.5,59 L55.5,83 C63,78 73,78 82,82 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M54,22 C45.2,22 38,29.2 38,38 C38,49.5 54,57 54,57 C54,57 70,49.5 70,38 C70,29.2 62.8,22 54,22 Z M54,31.5 A6.5,6.5 0 1,1 54,44.5 A6.5,6.5 0 1,1 54,31.5 Z" />
+</vector>

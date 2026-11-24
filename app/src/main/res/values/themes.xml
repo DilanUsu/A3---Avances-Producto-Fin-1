@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- El fondo crema evita el destello blanco al abrir la app -->
+    <style name="Theme.Aulateca" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/fondo_app</item>
+    </style>
+
+    <!-- Pantalla de bienvenida con el birrete; después cambia al tema normal -->
+    <style name="Theme.Aulateca.Splash" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/fondo_app</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/cafe_primario</item>
+        <item name="postSplashScreenTheme">@style/Theme.Aulateca</item>
+    </style>
+</resources>

@@ -1,0 +1,5 @@
+# Perfil de arranque: Android precompila estas clases al instalar la app,
+# así abre y se mueve más rápido desde la primera vez.
+# Compose, Room y Navigation ya traen sus propios perfiles; aquí va el código de Aulateca.
+HSPLcom/example/aulaguia/**;->**(**)**
+Lcom/example/aulaguia/**;
